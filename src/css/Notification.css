@@ -1,0 +1,19 @@
+.Notification img {
+  filter: invert(66%) sepia(3%) saturate(1705%) hue-rotate(163deg)
+    brightness(80%) contrast(85%);
+}
+
+.Notification .noti-area {
+  position: relative;
+  width: 100px;
+}
+
+.Notification .noti-area .red-dot {
+  background-color: red;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: 0;
+  left: 65px;
+  border-radius: 50%;
+}
